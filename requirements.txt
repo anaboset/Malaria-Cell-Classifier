@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+safetensors>=0.4
+Pillow>=9.0
+numpy>=1.23
+gradio>=4.0

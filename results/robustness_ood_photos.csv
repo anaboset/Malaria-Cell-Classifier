@@ -1,0 +1,4 @@
+photo,sets,mean_pct,min_pct,max_pct,mean_p,mean_pct_confident
+china.jpg,20,32.8,26.0,40.0,0.338,12.2
+flower.jpg,20,39.0,31.0,47.0,0.426,14.8
+both photos,40,35.9,26.0,47.0,0.382,13.5

@@ -1,0 +1,10 @@
+variant,auc,sensitivity,specificity
+clean,0.995,0.959,0.975
+gaussian noise sd=5,0.995,0.962,0.977
+gaussian noise sd=15,0.994,0.938,0.988
+blur r=1,0.994,0.941,0.98
+blur r=2,0.994,0.931,0.983
+JPEG q=50,0.994,0.958,0.969
+JPEG q=20,0.993,0.961,0.958
+downscale to 64px,0.994,0.938,0.977
+downscale to 32px,0.994,0.926,0.987

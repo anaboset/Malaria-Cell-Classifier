@@ -1,0 +1,8 @@
+input,n,mean P(parasitized),% predicted parasitized,% confident (p<0.05 or >0.95)
+uniform noise,100,0.186,0.0,0.0
+black,1,0.124,0.0,0.0
+white,1,0.115,0.0,0.0
+gray,1,0.106,0.0,0.0
+solid purple,1,0.044,0.0,100.0
+solid pink,1,0.051,0.0,0.0
+photos (scikit-learn samples),100,0.311,25.0,11.0

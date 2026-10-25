@@ -1,0 +1,7 @@
+{
+  "dataset": "iarunava/cell-images-for-detecting-malaria",
+  "license": "CC BY 4.0",
+  "images_used": 27558,
+  "patients": 200,
+  "citation": "Rajaraman et al., PeerJ 6:e4568 (2018)"
+}
