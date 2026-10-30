@@ -87,8 +87,8 @@ python app.py
 
 | Model                        | AUC   | Notes                          |
 |-----------------------------|-------|--------------------------------|
-| ResNet-18 (fine-tuned)      | see MODEL_CARD.md | 3-seed mean, patient-level split |
-| Colour-feature baseline (HGB) | see MODEL_CARD.md | mean RGB + background fraction |
+| ResNet-18 (fine-tuned)      | see [model_card](MODEL_CARD.md) | 3-seed mean, patient-level split |
+| Colour-feature baseline (HGB) | see [model_card](MODEL_CARD.md) | mean RGB + background fraction |
 
 Full metrics, calibration, error analysis and robustness checks live in [MODEL_CARD.md](MODEL_CARD.md) and [notebooks](notebooks/insa_capstone_malaria.ipynb).
 
