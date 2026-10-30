@@ -26,21 +26,31 @@ All train/val/test splits are **patient-grouped** — no patient appears in more
 # 1. Clone and set up
 git clone https://github.com/anaboset/Malaria-Cell-Classifier
 cd Malaria-Cell-Classifier
+```
 
+```bash
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
+```
 
+```bash
 pip install -r requirements.txt
 # If you need a CPU-only torch build, install torch/torchvision first from https://pytorch.org
+```
 
+```bash
 # 2. Verify weights integrity
 cd model && sha256sum -c resnet18_malaria.sha256 && cd ..
 # macOS: shasum -a 256 -c resnet18_malaria.sha256
+```
 
+```bash
 # 3. Run the self-test (upload validator + gate + determinism)
 python test_inference.py
 # Expect: 0 failure(s)
+```
 
+```bash
 # 4. Launch the demo
 python app.py
 # Opens http://127.0.0.1:7860
@@ -80,7 +90,7 @@ python app.py
 | ResNet-18 (fine-tuned)      | see MODEL_CARD.md | 3-seed mean, patient-level split |
 | Colour-feature baseline (HGB) | see MODEL_CARD.md | mean RGB + background fraction |
 
-Full metrics, calibration, error analysis and robustness checks live in `MODEL_CARD.md` and `notebooks/`.
+Full metrics, calibration, error analysis and robustness checks live in [MODEL_CARD.md](MODEL_CARD.md) and [notebooks](notebooks/insa_capstone_malaria.ipynb).
 
 ---
 
